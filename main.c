@@ -42,7 +42,7 @@ int main() {
                 for(int i = 0; i < numClientes; i++) {
                     printf("Nome: %s\n", clientes[i].nome);
                     printf("Email: %s\n", clientes[i].email);
-                    printf("---------------------\n");
+                    printf("---------------------\n\n");
                 }
                 break;
             }
