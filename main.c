@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <locale.h>
 
 struct Cliente {
     char nome[100];
@@ -8,6 +9,8 @@ struct Cliente {
 };
 
 int main() {
+
+    setlocale(LC_ALL,"Portuguese");
 
     struct Cliente clientes[100];
     int opcao, numClientes = 0;
